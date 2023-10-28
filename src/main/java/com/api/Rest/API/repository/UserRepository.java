@@ -9,7 +9,7 @@ import java.util.List;
 @Repository
 public class UserRepository {
     public void save(User user){
-        if(user.getId()==null) {
+        if(user.getId() == null) {
             System.out.println("SAVE - Recebendo o usuário na camada de repositório");
         } else
             System.out.println("UPDATE - Recebendo o usuário na camada de repositório");
