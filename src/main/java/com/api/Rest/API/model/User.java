@@ -1,7 +1,7 @@
 package com.api.Rest.API.model;
 
 public class User {
-    private int id;
+    private Integer id;
     private String name;
     private String email;
     private String password;
@@ -16,12 +16,12 @@ public class User {
 
     @Override
     public String toString(){
-        return "User{" + "email='" + email + '\'' +
+        return "User{" + "name='" + name + '\'' + "email='" + email + '\'' +
                 ", password='" + password + '\'' + '}';
     }
 
     //Getters and Setters
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
